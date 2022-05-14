@@ -1,0 +1,283 @@
+body {
+    background-color: #E5E5E5;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    color: #3B868A;
+    margin-top: 36px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 27px;
+    color: black;
+    margin-left: 110px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h4 {
+    font-size: 14px;
+    text-align: left;
+    margin-top: -15px;
+    color: gray;
+    margin-left: 110px;
+    margin-bottom: 27px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+hr {
+    border-top: 2px solid #3B868A;
+    margin-bottom: 35px;
+}
+
+.navbar-expand-lg {
+    height: 62px;
+    background-color: #3B868A;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.nav-item {
+    background-color: white;
+    color: #3B868A;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 190px;
+    text-align: center;
+    border-color: #3B868A;
+}
+
+.b {
+    font-size: 17px;
+    width: 120px;
+    margin-right: 10px;
+}
+
+.nav-item:hover,
+.tombol:hover {
+    background-color: #3B868A;
+    color: white;
+    border-color: white;
+}
+
+.form-check-input {
+    width: 450px;
+    background-color: transparent;
+    margin-left: 300px;
+    margin-bottom: 27px;
+    height: 28px;
+    border-color: #3B868A;
+    border-radius: 10px;
+    padding: 0 0.6rem;
+}
+
+.f {
+    width: 500px;
+    background-color: transparent;
+    margin-left: 108px;
+    margin-top: -12px;
+    margin-bottom: 25px;
+    height: 28px;
+    border-color: #3B868A;
+    border-radius: 10px;
+    padding: 0 0.6rem;
+}
+
+.o {
+    width: 340px;
+    background-color: transparent;
+    margin-left: 49px;
+    margin-top: -12px;
+    margin-bottom: 25px;
+    height: 28px;
+    border-color: #3B868A;
+    border-radius: 10px;
+    padding: 0 0.6rem;
+}
+
+label {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 27px;
+    color: black;
+    margin-left: 49px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.r {
+    width: 290px;
+    background-color: transparent;
+    margin-left: 107px;
+    margin-top: -12px;
+    margin-bottom: 25px;
+    height: 28px;
+    border-color: #3B868A;
+    border-radius: 10px;
+    padding: 0 0.6rem;
+}
+
+.m {
+    width: 188px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: -12px;
+    margin-bottom: 25px;
+    height: 28px;
+    border-color: #3B868A;
+    border-radius: 10px;
+    padding: 0 0.6rem;
+}
+
+.btn-light {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 80px;
+    background-color: #3B868A;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-bottom: 27px;
+}
+
+.l {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 15px;
+    width: 80px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 10px;
+    color: gray;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-left: 93px;
+    margin-bottom: 27px;
+}
+
+.d {
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: #3B868A;
+    height: 28px;
+    width: 190px;
+    margin-left: 105px;
+    margin-bottom: 25px;
+}
+
+.a {
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: #3B868A;
+    height: 28px;
+    width: 188px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+/*h5 {
+    column-width: 1px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 27px;
+    color: black;
+    margin-left: 28px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}*/
+
+.form-control {
+    width: 500px;
+    height: 150px;
+    background-color: transparent;
+    margin-left: 108px;
+    margin-top: -12px;
+    margin-bottom: 10px;
+    border-color: #3B868A;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 438px;
+    background-color: #3B868A;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.t {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 438px;
+    background-color: #3B868A;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.text {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #3B868A;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+img {
+    margin-right: 12px;
+    margin-top: -3px;
+}
+
+.c {
+    margin-top: 14px;
+}

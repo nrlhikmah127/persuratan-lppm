@@ -1,0 +1,100 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.navbar-expand-lg{
+    height: 62px; 
+    background-color: #3B868A;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-right: 15px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link:hover::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.nav-item{
+    background-color: white;
+    color: #3B868A;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 190px;
+    text-align: center;
+    border-color: #3B868A;
+}
+
+.nav-item:hover, .tombol:hover{
+    background-color: #3B868A;
+    color: white;
+    border-color: white;
+}
+
+p{
+    font-size: 24px;
+    color: #3B868A;
+    margin-top: 36px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-bottom: 36px;
+}
+
+hr{
+    border-top: 2px solid #3B868A;
+}
+
+.card{
+    border-radius: 20px; 
+    border-width: 0px;
+    border-color: #3B868A;
+    background-color: #3B868A;
+    height: 280px;
+}
+
+.card-text{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.container .container .row{
+    margin-top: 20px;
+}
+
+.tombol{
+    background-color: white;
+    color: #3B868A;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 15px;
+    border-radius: 30px;
+    width: 100px;
+    text-align: center;
+    border-color: #3B868A;
+    margin-top: 20px;
+}
+
+.far{
+    margin-top: -20px;
+    color: white !important;
+}
