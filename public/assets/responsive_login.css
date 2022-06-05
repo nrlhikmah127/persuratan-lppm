@@ -1,0 +1,12 @@
+@media (max-width: 1200px) {
+    .forms-container {
+        position: absolute;
+        min-width: 50%;
+        min-height: 50%;
+        top: 5%;
+        left: 50%;
+    }
+    .container {
+        position: relative;
+    }
+}

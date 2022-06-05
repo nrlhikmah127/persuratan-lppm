@@ -7,8 +7,16 @@
     <div class="container">
         <span class="navbar-brand mb-0 h1">LPPM ULM</span>
             <div class="navbar-nav ml-auto">
-                <a class="nav-link" href="#halamanadmin">GANTI PASSWORD</a>
-                <a class="nav-link" href="#listseminar">LOGOUT</a>
+                <a class="nav-link nav-res" href="{{ url('/ganti_password') }}">GANTI PASSWORD</a>
+                <form action="{{ url('/logout') }}" method="POST">
+                  @csrf
+                  <button class="nav-res buttonlogout" type="submit">LOGOUT</button>
+                </form>
+            </div>
+            <div class="hamberger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
             </div>
     </div>
 </nav>
@@ -32,7 +40,7 @@
                 <p class="card-text">Surat Tugas Penelitian</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="#" class="btn tombol" style="font-size: 12px;">Cek Request</a>
+                  <a href="/req_tugaspenelitian" class="btn tombol" style="font-size: 12px;">Cek Request</a>
                 </center>
               </div>
             </div>
@@ -44,7 +52,7 @@
                 <p class="card-text">Surat Izin Penelitian</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="#" class="btn tombol" style="font-size: 12px;">Cek Request</a>
+                  <a href="/req_izinpenelitian" class="btn tombol" style="font-size: 12px;">Cek Request</a>
                 </center>
               </div>
             </div>
@@ -56,7 +64,7 @@
                 <p class="card-text">Surat Tugas Pengabdian</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="#" class="btn tombol" style="font-size: 12px;">Cek Request</a>
+                  <a href="/req_tugaspengabdian" class="btn tombol" style="font-size: 12px;">Cek Request</a>
                 </center>
               </div>
             </div>
@@ -68,7 +76,7 @@
                 <p class="card-text">Surat Izin Pengabdian</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="#" class="btn tombol" style="font-size: 12px;">Cek Request</a>
+                  <a href="/req_izinpengabdian" class="btn tombol" style="font-size: 12px;">Cek Request</a>
                 </center>
               </div>
             </div>
@@ -77,4 +85,18 @@
       </div>
     </div>
     <!-- Content -->
+    <script>
+      const hamberger = document.querySelector(".hamberger");
+          const navMenu = document.querySelector(".navbar-nav");
+  
+          hamberger.addEventListener("click", () => {
+              hamberger.classList.toggle("active");
+              navMenu.classList.toggle("active");
+          })
+  
+          document.querySelectorAll(".nav-res").forEach(n => n.addEventListener("click", () => {
+              hamberger.classList.remove("active");
+              navMenu.classList.remove("active");
+          }))
+    </script>
 @endsection

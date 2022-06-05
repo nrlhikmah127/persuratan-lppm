@@ -11,6 +11,7 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="/assets/style_form.css">
+    <link rel="stylesheet" type="text/css" href="/assets/responsive_form.css">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +30,12 @@
         <div class="container">
             <span class="navbar-brand mb-0 h1">LPPM ULM</span>
             <div class="navbar-nav ml-auto">
-                <a class="nav-item btn" href="https://wa.me/6282256027018">HUBUNGI ADMIN</a>
+                <a class="nav-item btn nav-res" href="https://wa.me/6282256027018">HUBUNGI ADMIN</a>
+            </div>
+            <div class="hamberger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
     </nav>
@@ -38,6 +44,19 @@
     <!--Content-->
     @yield('content')
     <!--Content-->
-
+    <script>
+        const hamberger = document.querySelector(".hamberger");
+          const navMenu = document.querySelector(".navbar-nav");
+  
+          hamberger.addEventListener("click", () => {
+              hamberger.classList.toggle("active");
+              navMenu.classList.toggle("active");
+          })
+  
+          document.querySelectorAll(".nav-res").forEach(n => n.addEventListener("click", () => {
+              hamberger.classList.remove("active");
+              navMenu.classList.remove("active");
+          }))
+    </script>
 </body>
 </html>

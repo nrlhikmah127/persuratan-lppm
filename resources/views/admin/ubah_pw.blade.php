@@ -10,8 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- My CSS -->
-    <link rel="stylesheet" type="text/css" href="/assets/style_login.css">
-    <link rel="stylesheet" type="text/css" href="/assets/responsive_login.css">
+    <link rel="stylesheet" type="text/css" href="/assets/style_ubahpw.css">
+    <link rel="stylesheet" type="text/css" href="/assets/responsive_ubahpw.css">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +26,7 @@
 
 <body>
     <div class="container">
-        @if(session()->has('success'))
+    @if(session()->has('success'))
             <div class="alert alert-success alert-dismissable fade show" role="alert">
                 {{ session('success') }}
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -40,32 +40,24 @@
             </div>
         @endif
         <div class="forms-container">
-            <img src="img/login.png" alt="icon back" class="img">
-       
             <div class="login">
                 <!-- form login -->
-                <form action="{{ url('/login') }}" method="POST" class="login">
+                <form action="{{ url('/ganti_password') }}" method="POST" class="login">
                     @csrf
-                    <h2 class="title">LPPM SINGLE SIGN ON</h2>
-                    <!-- username login -->
-                    <h3>Username</h3>
+                    <h2 class="title">GANTI PASSWORD</h2>
+                   <!-- password login -->
+                   <h3>Password Lama</h3>
                     <div class="input-field">
-                        <input type="text" name="username" @if(Cookie::has('adminuser')) value="{{ Cookie::get('adminuser') }}" @endif
-                        id="username" autofocus required value="{{ old('username') }}">
+                        <input type="password" name="password_lama" id="password" required>
                     </div>
+
                     <!-- password login -->
-                    <h3>Password</h3>
+                    <h3>Password Baru</h3>
                     <div class="input-field">
-                        <input type="password" name="password"  @if(Cookie::has('adminpw')) value="{{ Cookie::get('adminpw') }}" @endif id="password" required>
+                        <input type="password" name="password_baru" id="password" required>
                     </div>
-                    <!-- remember me-->
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" @if(Cookie::has('adminuser')) checked @endif name="remember" value="" id="flexCheckDefault">
-                        <label>
-                            Remember Me
-                        </label>
-                    </div>
-                    <input type="submit" value="login" class="btn solid">
+                    <input type="submit" value="Simpan" class="btn solid">
+                    <a href="{{ url('/beranda_admin') }}" class="text-white fw-bold text-decoration-none">Kembali</a>
                 </form>
                
             </div>

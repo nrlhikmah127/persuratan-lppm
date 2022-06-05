@@ -11,6 +11,21 @@ p {
     margin-bottom: 10px;
 }
 
+.hamberger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
 .navbar-expand-lg {
     height: 62px;
     background-color: #3B868A;
@@ -47,12 +62,9 @@ p {
     background-color: white;
     color: #3B868A;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 20px;
     border-radius: 30px;
-    text-align: center;
     border-color: #3B868A;
-    font-size: 17px;
-    width: 120px;
-    margin-right: 10px;
 }
 
 .nav-item:hover,
@@ -138,4 +150,28 @@ h4 {
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 260px;
+}
+
+.buttonlogout {
+    border: none;
+    padding: 0;
+    background: none;
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.buttonlogout:hover {
+    color: white;
+}
+
+.buttonlogout:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
 }

@@ -31,21 +31,11 @@ form {
     grid-row: 1 / 2;
 }
 
-img {
-    position: absolute;
-    top: 13%;
-    left: 8%;
-    width: 45%;
-    display: grid;
-    grid-template-columns: 1fr;
-    z-index: 5;
-}
-
 .login {
-    position: absolute;
+    position: fixed;
     top: 55%;
     transform: translate(-50%, -50%);
-    left: 79%;
+    left: 65%;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;

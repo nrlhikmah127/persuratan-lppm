@@ -1,0 +1,505 @@
+@media screen and (max-width: 1199px) {
+    .all {
+        margin-left: 0;
+    }
+    .form-check-input {
+        position: relative;
+        max-width: 70%;
+        margin-left: 50%;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .invalid-feedback {
+        max-width: 70%;
+        margin-left: 50%;
+        margin-bottom: 2%;
+        max-height: 28px;
+        margin-top: -20px;
+    }
+    .f {
+        position: relative;
+        max-width: 70%;
+        margin-left: 25%;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .o {
+        position: relative;
+        max-width: 80%;
+        margin-left: 8%;
+        margin-bottom: 6%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .r {
+        position: relative;
+        max-width: 60%;
+        margin-left: 35%;
+        margin-bottom: 6%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .m {
+        position: relative;
+        max-width: 75%;
+        margin-left: 6%;
+        margin-bottom: 10%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .d {
+        position: relative;
+        max-width: 60%;
+        margin-left: 35%;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .a {
+        position: relative;
+        max-width: 80%;
+        margin-left: 6%;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .btn-primary {
+        max-width: 70%;
+        margin-left: 25%;
+    }
+    .t {
+        max-width: 70%;
+        margin-left: 12%;
+    }
+    .sub {
+        position: relative;
+        max-width: 400px;
+        margin-left: 10%;
+    }
+    label {
+        margin-left: 28%;
+    }
+    td {
+        max-width: 430;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .hamberger {
+        display: block;
+    }
+    .hamberger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamberger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamberger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navbar-nav {
+        position: fixed;
+        left: -100%;
+        top: 60px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #3B868A;
+        opacity: 0.9;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-res {
+        margin: auto;
+    }
+    .navbar-nav.active {
+        left: 0;
+    }
+    .form-check-input {
+        position: relative;
+        max-width: 100%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .invalid-feedback {
+        max-width: 100%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        max-height: 28px;
+        margin-top: -12px;
+    }
+    .f {
+        max-width: 85%;
+        margin-left: auto;
+    }
+    .o {
+        max-width: 60%;
+        margin-left: auto;
+    }
+    .r {
+        position: relative;
+        max-width: 90%;
+        margin-left: auto;
+        margin-bottom: 6%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .m {
+        position: relative;
+        max-width: 80%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .d {
+        position: relative;
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .a {
+        position: relative;
+        max-width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .btn-primary {
+        max-width: 90%;
+        margin-left: auto;
+    }
+    .t {
+        max-width: 90%;
+        margin-left: auto;
+    }
+    .sub {
+        position: relative;
+        max-width: 260px;
+        margin-left: -5%;
+    }
+    td {
+        max-width: 210px;
+    }
+    label {
+        margin-left: 70%;
+    }
+    h3 {
+        margin-left: auto;
+    }
+    h4 {
+        font-size: small;
+        margin-left: auto;
+        margin-top: auto;
+    }
+    .form-control {
+        margin-left: auto
+    }
+    h5 {
+        margin-left: 0;
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    hr {
+        max-width: 65%;
+    }
+    p {
+        font-size: medium;
+        margin-left: -35%;
+    }
+    .form-check-input {
+        position: relative;
+        max-width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .invalid-feedback {
+        max-width: 100%;
+        margin-left: 5%;
+        margin-bottom: 12%;
+        margin-top: -5%;
+        max-height: 35px;
+        font-size: 12px;
+    }
+    .f {
+        max-width: 85%;
+        margin-left: auto;
+    }
+    .o {
+        max-width: 90%;
+        margin-left: auto;
+    }
+    .r {
+        position: relative;
+        max-width: 90%;
+        margin-left: auto;
+        margin-bottom: 6%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .m {
+        position: relative;
+        max-width: 80%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .d {
+        position: relative;
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .a {
+        position: relative;
+        max-width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .btn-primary {
+        max-width: 90%;
+        margin-left: auto;
+    }
+    .t {
+        max-width: 90%;
+        margin-left: auto;
+    }
+    .sub {
+        position: relative;
+        max-width: 140px;
+        margin-left: -5%;
+    }
+    td {
+        max-width: 100px;
+    }
+    label {
+        margin-left: 58%;
+        font-size: 12px;
+    }
+    h3 {
+        margin-left: auto;
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 12px;
+        margin-left: auto;
+        margin-top: auto;
+    }
+    .form-control {
+        margin-left: 5%;
+        max-width: 100%;
+        min-height: 20%;
+    }
+    h5 {
+        margin-left: 0;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    hr {
+        max-width: none;
+    }
+    p {
+        font-size: small;
+        margin-left: 5%;
+    }
+    .form-check-input {
+        position: center;
+        max-width: 100%;
+        margin-left: 50%;
+        margin-bottom: 20%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .invalid-feedback {
+        max-width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-top: 2%;
+        max-height: 28px;
+        font-size: 9px;
+    }
+    .f {
+        max-width: 85%;
+        margin-left: auto;
+    }
+    .o {
+        max-width: 90%;
+        margin-left: auto;
+    }
+    .r {
+        position: relative;
+        max-width: 90%;
+        margin-left: auto;
+        margin-bottom: 6%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .m {
+        position: relative;
+        max-width: 80%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .d {
+        position: relative;
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .a {
+        position: relative;
+        max-width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .btn-primary {
+        max-width: 90%;
+        margin-left: auto;
+    }
+    .t {
+        max-width: 90%;
+        margin-left: auto;
+    }
+    .sub {
+        position: relative;
+        max-width: 140px;
+        margin-left: -5%;
+    }
+    td {
+        max-width: 100px;
+    }
+    label {
+        margin-left: 58%;
+        font-size: 12px;
+    }
+    h3 {
+        margin-left: auto;
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 10px;
+        margin-left: auto;
+        margin-top: -20%;
+    }
+    .form-control {
+        margin-left: 5%;
+        max-width: 100%;
+        min-height: 20%;
+    }
+    h5 {
+        margin-left: 0;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .form-check-input {
+        position: relative;
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .form-control {
+        max-width: 160%;
+    }
+    .invalid-feedback {
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        max-height: 28px;
+        font-size: 7px;
+    }
+    .f {
+        position: relative;
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 20%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .o {
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 20%;
+    }
+    .r {
+        position: relative;
+        max-width: 90%;
+        margin-left: auto;
+        margin-bottom: 20%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .m {
+        position: relative;
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 20%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .d {
+        position: relative;
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .a {
+        position: relative;
+        max-width: 100%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        height: 28px;
+        padding: 0 0.6rem;
+    }
+    .btn-primary {
+        max-width: 150%;
+        margin-left: 0%;
+    }
+    .t {
+        max-width: 100%;
+        margin-left: 2%;
+    }
+    label {
+        margin-left: 30%;
+    }
+    .sub {
+        position: relative;
+        max-width: 90px;
+        margin-left: -5%;
+    }
+    td {
+        max-width: 70px;
+    }
+    h4 {
+        font-size: x-small;
+    }
+}

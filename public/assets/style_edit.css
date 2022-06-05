@@ -88,7 +88,10 @@ hr {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 20px;
     border-radius: 30px;
-    width: 190px;
+    width: 150px;
+    height: 50%;
+    margin-right: 8%;
+    margin-top: 2%;
     text-align: center;
     border-color: #3B868A;
 }
@@ -305,7 +308,7 @@ img {
     color: white;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     margin-right: 15px;
-    margin-top: 8px;
+    margin-top: 15px;
 }
 
 .buttonlogout:hover {
@@ -320,58 +323,4 @@ img {
     margin: auto;
     padding-bottom: 5px;
     margin-bottom: -8px;
-}
-
-.invalid-feedback {
-    margin-left: 300px;
-    max-width: 30%;
-    max-height: 20px;
-    margin-bottom: 20px;
-    margin-top: -20px;
-}
-
-.q {
-    max-width: 50%;
-    margin-left: 108px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    max-height: 20px;
-}
-
-.w {
-    max-width: 50%;
-    margin-left: 49px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    max-height: 20px;
-}
-
-.e {
-    max-width: 50%;
-    margin-left: 107px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    max-height: 20px;
-}
-
-.x {
-    max-width: 100%;
-    margin-left: 20px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    max-height: 30px;
-}
-
-.p {
-    height: 28px;
-    max-width: 100%;
-    margin-left: 105px;
-    margin-bottom: 25px;
-}
-
-.y {
-    max-height: 30px;
-    max-width: 100%;
-    margin-left: 50px;
-    margin-bottom: 25px;
 }

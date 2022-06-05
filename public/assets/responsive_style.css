@@ -1,0 +1,76 @@
+/*untuk layar device berukuran kecil*/
+
+@media screen and (max-width: 990px) {
+    .hamberger {
+        display: block;
+    }
+    .hamberger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamberger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamberger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navbar-nav {
+        position: fixed;
+        left: -100%;
+        top: 60px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #3B868A;
+        opacity: 0.9;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-res {
+        margin: 16px 0;
+    }
+    .navbar-nav.active {
+        left: 0;
+    }
+}
+
+
+/*untuk layar device berukuran sedang*/
+
+@media screen and (max-width: 768px) {
+    .card {
+        border-radius: 20px;
+        border-width: 0px;
+        border-color: #3B868A;
+        background-color: #3B868A;
+        max-width: 100%;
+        height: 280px;
+        margin-top: 40px;
+    }
+    p {
+        font-size: 22px;
+        color: #3B868A;
+        margin-top: 36px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    p {
+        font-size: 19px;
+        color: #3B868A;
+        margin-top: 36px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        margin-bottom: 36px;
+    }
+}
+
+
+/*untuk layar device berukuran sedang*/
+
+
+/* @media screen and (min-width: 800px) {
+    card {
+        width: 100%
+    }
+} */

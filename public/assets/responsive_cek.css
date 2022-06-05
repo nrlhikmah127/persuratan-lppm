@@ -1,0 +1,76 @@
+        @media screen and (max-width: 990px) {
+            .hamberger {
+                display: block;
+            }
+            .hamberger.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+            .hamberger.active .bar:nth-child(1) {
+                transform: translateY(8px) rotate(45deg);
+            }
+            .hamberger.active .bar:nth-child(3) {
+                transform: translateY(-8px) rotate(-45deg);
+            }
+            .navbar-nav {
+                position: fixed;
+                left: -100%;
+                top: 60px;
+                gap: 0;
+                flex-direction: column;
+                background-color: #3B868A;
+                opacity: 0.9;
+                width: 100%;
+                text-align: center;
+                transition: 0.3s;
+            }
+            .nav-res {
+                margin: auto;
+            }
+            .navbar-nav.active {
+                left: 0;
+            }
+            .container {
+                min-width: 50%;
+            }
+            .tbl2 {
+                min-width: none;
+                border-radius: 20px;
+                text-transform: uppercase;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: 0;
+            }
+            .second {
+                position: absolute;
+                max-width: 60%;
+                margin-top: 5%;
+                margin-left: 20%;
+            }
+        }
+        
+        @media screen and (max-width: 728px) {
+            .tbl2 {
+                font-size: small;
+                max-width: 70%;
+                border-radius: 10px;
+                text-transform: uppercase;
+                margin-top: none;
+                margin-bottom: 0;
+                margin-right: 5%;
+            }
+            .second {
+                position: absolute;
+                max-width: 50%;
+                margin-top: 5%;
+                margin-left: 20%;
+            }
+        }
+        
+        @media screen and (max-width: 320px) {
+            .second {
+                position: absolute;
+                max-width: 50%;
+                margin-top: 5%;
+                margin-left: 10%;
+            }
+        }

@@ -118,3 +118,27 @@ img {
     margin-top: 2px;
     margin-left: 820px;
 }
+
+.buttonlogout{
+    border: none;
+    padding: 0;
+    background: none;
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.buttonlogout:hover{
+    color: white;
+}
+
+.buttonlogout:hover::after{
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}

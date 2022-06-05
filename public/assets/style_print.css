@@ -1,0 +1,37 @@
+@media print {
+    span {
+        margin-left: unset !important;
+    }
+    table {
+        width: 100% !important;
+        margin-left: unset !important;
+    }
+    #printableColumn {
+        width: 100% !important;
+    }
+    hr {
+        border-top: solid 1px #000 !important;
+        display: block;
+    }
+    h5 {
+        font-size: 15px !important;
+    }
+    h6 {
+        font-size: 12px !important;
+    }
+    #univ-name {
+        font-size: 18px !important;
+    }
+    img {
+        width: 100px !important;
+        height: 100px !important;
+        margin-left: 20px !important;
+    }
+}
+.container-edit h3 {
+    color: black !important;
+}
+.container-edit h4 {
+    margin-top: unset !important;
+    margin-left: 110px !important;
+}

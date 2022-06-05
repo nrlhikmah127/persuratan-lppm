@@ -10,6 +10,7 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="/assets/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/responsive_style.css">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +47,7 @@
               Useful Links
             </h6>
             <h7>
-              <a class="text-muted" href="http://lppm.ulm.ac.id/" style="text-decoration: none;">Website LPPM</a>
+              <a class="text-muted" href="http://lppm.ulm.ac.id/id/" style="text-decoration: none;">Website LPPM</a>
             </h7>
           </div>
 
