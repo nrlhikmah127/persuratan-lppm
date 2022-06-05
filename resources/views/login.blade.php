@@ -46,6 +46,7 @@
                 <!-- form login -->
                 <form action="{{ url('/login') }}" method="POST" class="login">
                     {{ csrf_field }}
+                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
                     <h2 class="title">LPPM SINGLE SIGN ON</h2>
                     <!-- username login -->
                     <h3>Username</h3>
