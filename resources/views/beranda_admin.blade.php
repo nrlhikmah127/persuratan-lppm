@@ -34,56 +34,29 @@
   <div class="container">
     <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-6">
             <div class="card">
               <div class="card-body">
-                <p class="card-text">Surat Tugas Penelitian</p>
+                <p class="card-text">Perlu Diproses</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="/req_tugaspenelitian" class="btn tombol" style="font-size: 12px;">Cek Request</a>
+                  <a href="/cek_req_diproses" class="btn tombol" style="font-size: 17px;">Cek Request</a>
                 </center>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-6">
             <div class="card">
               <div class="card-body">
-                <p class="card-text">Surat Izin Penelitian</p>
+                <p class="card-text">Sudah Diproses</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="/req_izinpenelitian" class="btn tombol" style="font-size: 12px;">Cek Request</a>
+                  <a href="/sdh_diproses" class="btn tombol" style="font-size: 17px;">Cek Request</a>
                 </center>
               </div>
             </div>
           </div>
-
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">Surat Tugas Pengabdian</p>
-                <center>
-                  <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="/req_tugaspengabdian" class="btn tombol" style="font-size: 12px;">Cek Request</a>
-                </center>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">
-                <p class="card-text">Surat Izin Pengabdian</p>
-                <center>
-                  <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="/req_izinpengabdian" class="btn tombol" style="font-size: 12px;">Cek Request</a>
-                </center>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- Content -->
     <script>
       const hamberger = document.querySelector(".hamberger");

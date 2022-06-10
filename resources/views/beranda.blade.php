@@ -40,10 +40,10 @@
           <div class="col-md-3">
             <div class="card">
               <div class="card-body">
-                <p class="card-text">Surat Tugas Penelitian</p>
+                <p class="card-text s">Surat Tugas Penelitian</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="/form_tugaspenelitian" class="btn tombol">Isi Form</a>
+                  <a href="/form_tugaspenelitian" class="btn tombol v">Isi Form</a>
                 </center>
               </div>
             </div>
@@ -52,10 +52,10 @@
           <div class="col-md-3">
             <div class="card">
               <div class="card-body">
-                <p class="card-text">Surat Izin Penelitian</p>
+                <p class="card-text s">Surat Izin Penelitian</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="/form_izinpenelitian" class="btn tombol">Isi Form</a>
+                  <a href="/form_izinpenelitian" class="btn tombol v">Isi Form</a>
                 </center>
               </div>
             </div>
@@ -64,10 +64,10 @@
           <div class="col-md-3">
             <div class="card">
               <div class="card-body">
-                <p class="card-text">Surat Tugas Pengabdian</p>
+                <p class="card-text s">Surat Tugas Pengabdian</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="/form_tugaspengabdian" class="btn tombol">Isi Form</a>
+                  <a href="/form_tugaspengabdian" class="btn tombol v">Isi Form</a>
                 </center>
               </div>
             </div>
@@ -76,10 +76,10 @@
           <div class="col-md-3">
             <div class="card">
               <div class="card-body">
-                <p class="card-text">Surat Izin Pengabdian</p>
+                <p class="card-text s">Surat Izin Pengabdian</p>
                 <center>
                   <i class="far fa-envelope fa-5x"></i><br>
-                  <a href="/form_izinpengabdian" class="btn tombol">Isi Form</a>
+                  <a href="/form_izinpengabdian" class="btn tombol v">Isi Form</a>
                 </center>
               </div>
             </div>

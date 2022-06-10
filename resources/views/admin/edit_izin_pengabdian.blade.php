@@ -126,7 +126,7 @@
                     </td>
                     <td>
                         <input class="form-check-input o @error('nip_ketua') is-invalid @enderror" id="nip_ketua"
-                            name="nip_ketua" type="text" placeholder="NIP/NIDM"  value="{{ old('nip_ketua', $permohonan->nip_ketua) }}">
+                            name="nip_ketua" type="text" placeholder="NIP/NIDN"  value="{{ old('nip_ketua', $permohonan->nip_ketua) }}">
                         @error('nip_ketua')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
@@ -152,7 +152,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m @error('nip_ang1') is-invalid @enderror" id="nip_ang1"
-                            name="nip_ang1" type="text" placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang1', $permohonan->nip_ang1) }}">
+                            name="nip_ang1" type="text" placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang1', $permohonan->nip_ang1) }}">
                         @error('nip_ang1')
                             <div class="invalid-feedback">{{ $message }}</div>
                         @enderror
@@ -172,7 +172,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang2" name="nip_ang2" type="text"
-                            placeholder="NIP/NIDM/NIM"  value="{{ old('nip_ang2', $permohonan->nip_ang2) }}">
+                            placeholder="NIP/NIDN/NIM"  value="{{ old('nip_ang2', $permohonan->nip_ang2) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang2" name="jbtn_ang2" type="text" value="{{ old('jbtn_ang2', $permohonan->jbtn_ang2) }}">
@@ -185,7 +185,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang3" name="nip_ang3" type="text"
-                            placeholder="NIP/NIDM/NIM"  value="{{ old('nip_ang3', $permohonan->nip_ang3) }}">
+                            placeholder="NIP/NIDN/NIM"  value="{{ old('nip_ang3', $permohonan->nip_ang3) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang3" name="jbtn_ang3" type="text"  value="{{ old('jbtn_ang3', $permohonan->jbtn_ang3) }}">
@@ -198,7 +198,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang4" name="nip_ang4" type="text"
-                            placeholder="NIP/NIDM/NIM"  value="{{ old('nip_ang4', $permohonan->nip_ang4) }}">
+                            placeholder="NIP/NIDN/NIM"  value="{{ old('nip_ang4', $permohonan->nip_ang4) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang4" name="jbtn_ang4" type="text"  value="{{ old('jbtn_ang4', $permohonan->jbtn_ang4) }}">
@@ -211,7 +211,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang5" name="nip_ang5" type="text"
-                            placeholder="NIP/NIDM/NIM"  value="{{ old('nip_ang5', $permohonan->nip_ang5) }}">
+                            placeholder="NIP/NIDN/NIM"  value="{{ old('nip_ang5', $permohonan->nip_ang5) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang5" name="jbtn_ang5" type="text"  value="{{ old('jbtn_ang5', $permohonan->jbtn_ang5) }}">
@@ -224,7 +224,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang6" name="nip_ang6" type="text"
-                            placeholder="NIP/NIDM/NIM"  value="{{ old('nip_ang6', $permohonan->nip_ang6) }}">
+                            placeholder="NIP/NIDN/NIM"  value="{{ old('nip_ang6', $permohonan->nip_ang6) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang6" name="jbtn_ang6" type="text" value="{{ old('jbtn_ang6', $permohonan->jbtn_ang6) }}">
@@ -237,7 +237,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang7" name="nip_ang7" type="text"
-                            placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang7', $permohonan->nip_ang7) }}">
+                            placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang7', $permohonan->nip_ang7) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang7" name="jbtn_ang7" type="text" value="{{ old('jbtn_ang7', $permohonan->jbtn_ang7) }}">
@@ -250,7 +250,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang8" name="nip_ang8" type="text"
-                            placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang8', $permohonan->nip_ang8) }}">
+                            placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang8', $permohonan->nip_ang8) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang8" name="jbtn_ang8" type="text" value="{{ old('jbtn_ang8', $permohonan->jbtn_ang8) }}">
@@ -263,7 +263,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang9" name="nip_ang9" type="text"
-                            placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang9', $permohonan->nip_ang9) }}">
+                            placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang9', $permohonan->nip_ang9) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang9" name="jbtn_ang9" type="text" value="{{ old('jbtn_ang9', $permohonan->jbtn_ang9) }}">
@@ -276,7 +276,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang10" name="nip_ang10" type="text"
-                            placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang10', $permohonan->nip_ang10) }}">
+                            placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang10', $permohonan->nip_ang10) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang10" name="jbtn_ang10" type="text" value="{{ old('jbtn_ang10', $permohonan->jbtn_ang10) }}">
@@ -289,7 +289,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang11" name="nip_ang11" type="text"
-                            placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang11', $permohonan->nip_ang11) }}">
+                            placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang11', $permohonan->nip_ang11) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang11" name="jbtn_ang11" type="text" value="{{ old('jbtn_ang11', $permohonan->jbtn_ang11) }}">
@@ -302,7 +302,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang12" name="nip_ang12" type="text"
-                            placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang12', $permohonan->nip_ang12) }}">
+                            placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang12', $permohonan->nip_ang12) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang12" name="jbtn_ang12" type="text" value="{{ old('jbtn_ang12', $permohonan->jbtn_ang12) }}">
@@ -315,7 +315,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang13" name="nip_ang13" type="text"
-                            placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang13', $permohonan->nip_ang13) }}">
+                            placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang13', $permohonan->nip_ang13) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang13" name="jbtn_ang13" type="text" value="{{ old('jbtn_ang13', $permohonan->jbtn_ang13) }}">
@@ -328,7 +328,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang14" name="nip_ang14" type="text"
-                            placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang14', $permohonan->nip_ang14) }}">
+                            placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang14', $permohonan->nip_ang14) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang14" name="jbtn_ang14" type="text" value="{{ old('jbtn_ang14', $permohonan->jbtn_ang14) }}">
@@ -341,7 +341,7 @@
                     </td>
                     <td>
                         <input class="form-check-input m" id="nip_ang15" name="nip_ang15" type="text"
-                            placeholder="NIP/NIDM/NIM" value="{{ old('nip_ang15', $permohonan->nip_ang15) }}">
+                            placeholder="NIP/NIDN/NIM" value="{{ old('nip_ang15', $permohonan->nip_ang15) }}">
                     </td>
                     <td>
                         <input class="form-check-input o" id="jbtn_ang15" name="jbtn_ang15" type="text" value="{{ old('jbtn_ang15', $permohonan->jbtn_ang15) }}">
@@ -417,14 +417,14 @@
                 </tr>
                 <tr>
                     <td>
-                        <textarea class="form-control" id="catatan" name="catatan" rows="3">{{ old('catatan', $permohonan->catatan) }}</textarea>
+                        <textarea class="form-control j" id="catatan" name="catatan" rows="3">{{ old('catatan', $permohonan->catatan) }}</textarea>
                     </td>
                 </tr>
 
             </table>
             <table>
                 <tr>
-                    <td><input class="btn btn-primary" type="submit" value="Update"></td>
+                    <td><input class="btn btn-primary pm" type="submit" value="Update"></td>
                 </tr>
             </table>
         </form>

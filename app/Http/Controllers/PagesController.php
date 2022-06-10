@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\Permohonan;
 use App\Models\Tugas;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str;
 
 class PagesController extends Controller
 {
@@ -36,7 +35,6 @@ class PagesController extends Controller
     public function beranda_admin(){
         return view ('beranda_admin');
     }
-
 
 
     /**PERMOHONAN */
@@ -165,10 +163,8 @@ class PagesController extends Controller
         return redirect('/')->with('status', 'Data berhasil ditambahkan');
     }
 
-    public function req_izin_penelitian(){
-        $requests = Permohonan::where('tipe', 'izin_penelitian')
-                        ->get();
-        return view ('admin/cek_req_izin_penelitian', compact('requests'));
+    public function sdh_diproses(){
+        return view('admin/cek_req_sdh_diproses');
     }
 
     public function proses_izin_penelitian(Permohonan $permohonan){
@@ -563,9 +559,8 @@ class PagesController extends Controller
         return redirect('/proses_izinpengabdian/'.$permohonan->id_srt);
     }
 
-    public function req_tugas_penelitian(){
-        $requests = Tugas::where('tipe', 'tugas_penelitian')->get();
-        return view ('admin/cek_req_tugas_penelitian', compact('requests'));
+    public function req_diproses(){
+        return view ('admin/cek_req_diproses');
     }
 
     public function proses_tugas_penelitian(Tugas $tugas){
@@ -698,7 +693,7 @@ class PagesController extends Controller
     }
 
     public function req_tugas_pengabdian(){
-        $requests = Tugas::where('tipe', 'tugas_pengabdian')->get();
+        $requests = Tugas::where('tipe', 'Cek Request Diproses')->get();
         return view ('admin/cek_req_tugas_pengabdian', compact('requests'));
     }
 

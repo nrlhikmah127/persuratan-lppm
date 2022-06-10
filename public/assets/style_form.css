@@ -237,7 +237,7 @@ label {
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }*/
 
-.form-control {
+.j {
     width: 500px;
     height: 150px;
     background-color: transparent;
@@ -248,7 +248,7 @@ label {
     border-radius: 10px;
 }
 
-.btn-primary {
+.pm {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     width: 438px;
     background-color: #3B868A;
@@ -259,7 +259,7 @@ label {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    margin-top: 35px;
+    margin-top: 50px;
     margin-left: 110px;
     margin-bottom: 50px;
     cursor: pointer;

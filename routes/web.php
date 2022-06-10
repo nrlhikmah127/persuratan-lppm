@@ -32,7 +32,7 @@ Route::post('/logout', [LoginController::class, 'logout']);
 Route::get('/ganti_password', [LoginController::class, 'gantiPassword']);
 Route::post('/ganti_password', [LoginController::class, 'updatePassword']);
 
-Route::get('/req_izinpenelitian', [PagesController::class, 'req_izin_penelitian'])->middleware('auth');
+Route::get('/sdh_diproses', [PagesController::class, 'sdh_diproses'])->middleware('auth');
 Route::get('/proses_izinpenelitian/{permohonan}', [PagesController::class, 'proses_izin_penelitian'])->middleware('auth');
 Route::get('/edit_izinpenelitian/{permohonan}', [PagesController::class, 'edit_izin_penelitian'])->middleware('auth');
 Route::post('/update_izinpenelitian/{permohonan}', [PagesController::class, 'update_izin_penelitian'])->middleware('auth');
@@ -42,7 +42,7 @@ Route::get('/proses_izinpengabdian/{permohonan}', [PagesController::class, 'pros
 Route::get('/edit_izinpengabdian/{permohonan}', [PagesController::class, 'edit_izin_pengabdian'])->middleware('auth');
 Route::post('/update_izinpengabdian/{permohonan}', [PagesController::class, 'update_izin_pengabdian'])->middleware('auth');
 
-Route::get('/req_tugaspenelitian', [PagesController::class, 'req_tugas_penelitian'])->middleware('auth');
+Route::get('/cek_req_diproses', [PagesController::class, 'req_diproses'])->middleware('auth');
 Route::get('/proses_tugaspenelitian/{tugas}', [PagesController::class, 'proses_tugas_penelitian'])->middleware('auth');;
 Route::get('/edit_tugaspenelitian/{tugas}', [PagesController::class, 'edit_tugas_penelitian'])->middleware('auth');
 Route::post('/update_tugaspenelitian/{tugas}', [PagesController::class, 'update_tugas_penelitian'])->middleware('auth');

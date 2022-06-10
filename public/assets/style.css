@@ -106,6 +106,13 @@ hr {
 .card-text {
     color: white;
     text-align: center;
+    font-size: 27px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.s {
+    color: white;
+    text-align: center;
     font-size: 15px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
@@ -115,6 +122,19 @@ hr {
 }
 
 .tombol {
+    background-color: white;
+    color: #3B868A;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-color: #3B868A;
+    margin-top: 20px;
+}
+
+.v {
     background-color: white;
     color: #3B868A;
     font-family: 'M PLUS Rounded 1c', sans-serif;

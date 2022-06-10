@@ -15,6 +15,9 @@
                 <a href="{{ url('/edit_izinpenelitian/'.$permohonan->id_srt) }}" class="btn btn-danger" type="button" style="margin-left: 0px;">
                     EDIT
                 </a>
+                <a href="/edit_tugaspenelitian/{{ $tugas->id_srt }}" class="btn btn-success u" type="button" style="margin-left: 5px;">
+                    EMAIL PENGUSUL
+                </a>
             </div>
             <div class="col-6 d-flex justify-content-end">
                 <button class="btn btn-primary-proses" type="button" onclick="printDiv('printableArea')" style="margin-left: auto;">
@@ -30,7 +33,7 @@
                         <div class="col-12">
                             <table border="0" align="center" style="width: 100%;">
                                 <tr>
-                                    <td class="d-flex align-self-center justify-content-end"><img src="/img/logo.png" width="120" height="120" alt="" style="margin-left: 15px;"></td>
+                                    <td class="d-flex align-self-center justify-content-end"><img src="/img/logo.png" width="120" height="120" alt="" style="margin-left: 15px; margin: top 10px;"></td>
                                     <td>
                                         <center>
                                             <h5><strong>KEMENTERIAN PENDIDIKAN DAN KEBUDAYAAN, RISET DAN TEKNOLOGI</strong></h5>
