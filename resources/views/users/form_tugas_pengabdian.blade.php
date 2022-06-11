@@ -61,7 +61,7 @@
                 </tr>
                 <tr>
                 <td>
-                    <select class="form-check-input f" name="Jabatan Dalam Pengabdian">
+                    <select class="form-check-input f" name="Fakultas Ketua Pengabdian">
                                     <option value="Pilih">Pilih Fakultas Ketua Pengabdian </option>
                                     <option value="Fakultas Pertanian">Fakultas Pertanian</option>
                                     <option value="Fakultas Hukum">Fakultas Hukum</option>

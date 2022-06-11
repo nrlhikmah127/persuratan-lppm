@@ -2,8 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Permohonan;
-use App\Models\Tugas;
+use App\Models\{
+    Permohonan,
+    Tugas,
+    Admin,
+    Anggotum,
+    Fakulta,
+    FrSrtPrmhn,
+    FrSrtTgs,
+    Jabatan,
+    Login,
+    PasswordReset,
+    PersonalAccessToken,
+    User
+    };
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
