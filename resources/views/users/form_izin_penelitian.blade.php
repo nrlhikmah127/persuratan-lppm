@@ -80,16 +80,9 @@
                 <td>
                     <select class="form-check-input f" name="Jabatan Dalam Penelitian">
                                     <option value="Pilih">Pilih Fakultas Ketua Peneliti </option>
-                                    <option value="Fakultas Pertanian">Fakultas Pertanian</option>
-                                    <option value="Fakultas Hukum">Fakultas Hukum</option>
-                                    <option value="Fakultas Perikanan dan Kelautan">Fakultas Perikanan dan Kelautan</option>
-                                    <option value="Fakultas Keguruan dan Ilmu Pendidikan">Fakultas Keguruan dan Ilmu Pendidikan/option>
-                                    <option value="Fakultas Ilmu Sosial dan Ilmu Politik">Fakultas Ilmu Sosial dan Ilmu Politik</option>
-                                    <option value="Fakultas Kedokteran">Fakultas Kedokteran</option>
-                                    <option value="Fakultas Matematika dan Ilmu Pengetahuan Alam">Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
-                                    <option value="Fakultas Kedokteran Gigi">Fakultas Kedokteran Gigi</option>
-                                    <option value="Fakultas Ekonomi dan Bisnis">Fakultas Ekonomi dan Bisnis</option>
-                                    <option value="Fakultas Pertanian">Fakultas Pertanian</option>
+                                    @foreach ($fak as $fakultas)
+                                        <option value="{{ $fakultas->id }}">{{ $fakultas->fakultas }}</option>
+                                    @endforeach
                     </select>
                 </td>
                 <td>

@@ -29,7 +29,8 @@ class PagesController extends Controller
     }
 
     public function form_izin_penelitian(){
-        return view('users/form_izin_penelitian');
+        $fak = Fakulta::all();
+        return view('users/form_izin_penelitian', compact('fak'));
     }
 
     public function form_izin_pengabdian(){
